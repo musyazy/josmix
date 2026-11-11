@@ -60,7 +60,7 @@ class HasilAkses:
 
 
 def mode_auth() -> str:
-    mode = os.environ.get("MIXDESIGN_AUTH_MODE", "email").strip().lower()
+    mode = os.environ.get("MIXDESIGN_AUTH_MODE", "off").strip().lower()
     return mode if mode in MODE_TERSEDIA else "email"
 
 
