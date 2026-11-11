@@ -1,0 +1,8 @@
+# Rentang versi (bukan pin ketat) agar terpasang dengan wheel siap pakai di Python 3.10 - 3.14,
+# termasuk Python 3.14 yang kini menjadi bawaan Streamlit Community Cloud.
+streamlit>=1.40,<2
+pandas>=2.2.3,<4
+numpy>=1.26.4,<3
+pillow>=10.4,<13
+plotly>=5.24,<7
+reportlab>=4.2.5,<5
